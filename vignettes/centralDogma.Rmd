@@ -1,0 +1,34 @@
+---
+title: "centralDogma"
+output: rmarkdown::pdf_document
+editor: visual
+vignette: >
+  %\VignetteIndexEntry{centralDogma}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(centralDogma)
+```
+
+### INTRODUCTION
+
+### FUNCTIONS
+
+#### RANDOM_SEQ
+
+#### TRANSCRIBE
+
+#### GIVE_CODONS
+
+#### INPUT_DNA
+
+#### BASE_DENSITY
