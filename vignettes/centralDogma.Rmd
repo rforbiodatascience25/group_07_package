@@ -18,3 +18,23 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(centralDogma)
 ```
+
+### INTRODUCTION
+
+### FUNCTIONS
+
+#### RANDOM_SEQ
+
+#### TRANSCRIBE
+
+#### GIVE_CODONS
+
+The give_codons() function splits a DNA or RNA sequence into non-overlapping codons — groups of three consecutive nucleotides — starting from a user-defined reading frame. It is useful for translating nucleotide sequences into codon triplets for further analysis, such as identifying start and stop codons, calculating codon frequencies, or preparing data for translation into amino acids.
+
+**Arguments**: sequence — a character string containing the nucleotide sequence (e.g., "ATGCCCGTA"). frame — an integer (1, 2, or 3) indicating the reading frame from which to start codon extraction. The default is 1.
+
+**Returns**: A character vector of codons (three-letter strings). Bases that do not form a complete codon at the end of the sequence are ignored.
+
+#### INPUT_DNA
+
+#### BASE_DENSITY
