@@ -27,6 +27,10 @@ library(centralDogma)
 
 #### TRANSCRIBE
 
+This function uses a DNA sequence as input and returns its corresponding transcribed ARN by substituting "T" by "U". Example of use:
+
+transcribe("ACTG") returns "ACUG".
+
 #### GIVE_CODONS
 
 #### INPUT_DNA
