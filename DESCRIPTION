@@ -1,29 +1,34 @@
 Package: centralDogma
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Translate DNA Codons into Amino Acids
 Version: 0.1.0
-Authors@R:
-  c(person(given = "Angel",
-           family = "Molina",
-           role = c("aut", "cre")
-           email = "s253697@dtu.dk"), 
-    person(given = “Louise”,
-           family = “Kirkegaard”,
-           role = c("aut"), 
-           email = “s215038@dtu.dk”),
-    person(given = “Renata”,
-           family = “Piatkova”,
-           role = "aut",
-           email = “bubesha@gmail.com"),
-    person(given = "María",
-           family = "Vizcaya Garrido",
-           role = "aut",
-           email = "s253703@dtu.dk"))
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Authors@R: 
+    c(
+      person(given = "Angel",
+             family = "Molina",
+             role = c("aut", "cre"),
+             email = "s253697@dtu.dk"),
+      person(given = "Louise",
+             family = "Kirkegaard",
+             role = "aut",
+             email = "s215038@dtu.dk"),
+      person(given = "Renata",
+             family = "Piatkova",
+             role = "aut",
+             email = "bubesha@gmail.com"),
+      person(given = "María",
+             family = "Vizcaya Garrido",
+             role = "aut",
+             email = "s253703@dtu.dk")
+    )
+Description: A small teaching package that demonstrates how to translate 
+    DNA or RNA codons into amino acid sequences using lookup tables.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 3.5)
 RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
