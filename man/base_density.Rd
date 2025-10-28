@@ -2,7 +2,7 @@
 % Please edit documentation in R/base_density.R
 \name{base_density}
 \alias{base_density}
-\title{Title}
+\title{base_density plot}
 \usage{
 base_density(sequence)
 }
@@ -13,5 +13,5 @@ base_density(sequence)
 The function plots the count of bases present in your sequence
 }
 \description{
-Title
+base_density plot
 }

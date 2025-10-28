@@ -1,4 +1,4 @@
-#' Title
+#' base_density plot
 #'
 #' @param sequence DNA or RNA Sequence to plot
 #'
