@@ -1,6 +1,7 @@
 ---
 title: "centralDogma"
 output: rmarkdown::pdf_document
+editor: visual
 vignette: >
   %\VignetteIndexEntry{centralDogma}
   %\VignetteEngine{knitr::rmarkdown}
@@ -17,3 +18,4 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(centralDogma)
 ```
+
