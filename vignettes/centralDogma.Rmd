@@ -31,6 +31,6 @@ library(centralDogma)
 
 #### INPUT_DNA
 
-This function will enter a DNA triplette sequence and output the corresponding one-letter amino acid
+This function will enter a DNA triplette sequence and output the corresponding one-letter amino acid. Can also function with sequences of DNA, outputting several amino acids.
 
 #### BASE_DENSITY
