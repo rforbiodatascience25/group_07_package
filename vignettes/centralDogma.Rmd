@@ -27,6 +27,8 @@ The library *centralDogma* provides different functions that allow the user to g
 
 #### RANDOM_SEQ
 
+This functions creates a random sequence. The length of the sequence is the input from the user (e.g. random_seq(9) will create a random DNA sequence of length 9).
+
 #### TRANSCRIBE
 
 This function uses a DNA sequence as input and returns its corresponding transcribed ARN by substituting "T" by "U". Example of use:
@@ -46,3 +48,5 @@ The give_codons() function splits a DNA or RNA sequence into non-overlapping cod
 This function will enter a DNA triplette sequence and output the corresponding one-letter amino acid. Can also function with sequences of DNA, outputting several amino acids.
 
 #### BASE_DENSITY
+
+This function plots the count of each base in the provided sequence.
