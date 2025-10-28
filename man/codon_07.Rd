@@ -14,6 +14,6 @@ An object of class \code{character} of length 64.
 codon_07
 }
 \description{
-This is a document
+This is a document again.
 }
 \keyword{datasets}
