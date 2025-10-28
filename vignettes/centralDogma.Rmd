@@ -19,3 +19,16 @@ knitr::opts_chunk$set(
 library(centralDogma)
 ```
 
+### INTRODUCTION
+
+### FUNCTIONS
+
+#### RANDOM_SEQ
+
+#### TRANSCRIBE
+
+#### GIVE_CODONS
+
+#### INPUT_DNA
+
+#### BASE_DENSITY
