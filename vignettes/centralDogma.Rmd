@@ -21,11 +21,17 @@ library(centralDogma)
 
 ### INTRODUCTION
 
+The library *centralDogma* provides different functions that allow the user to generate random DNA sequences, transcribe them, extract codons and generate base density plots, among others. The functions are below explained.
+
 ### FUNCTIONS
 
 #### RANDOM_SEQ
 
 #### TRANSCRIBE
+
+This function uses a DNA sequence as input and returns its corresponding transcribed ARN by substituting "T" by "U". Example of use:
+
+*transcribe("ACTG")* returns *"ACUG".*
 
 #### GIVE_CODONS
 
@@ -36,5 +42,7 @@ The give_codons() function splits a DNA or RNA sequence into non-overlapping cod
 **Returns**: A character vector of codons (three-letter strings). Bases that do not form a complete codon at the end of the sequence are ignored.
 
 #### INPUT_DNA
+
+This function will enter a DNA triplette sequence and output the corresponding one-letter amino acid. Can also function with sequences of DNA, outputting several amino acids.
 
 #### BASE_DENSITY
